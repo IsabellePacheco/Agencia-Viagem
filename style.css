@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* reset das configurações */
+*{
+    /* espaço entre o conteúdo e a borda) */
+    padding: 0;
+    /* Define a margem externa */
+    margin: 0;
+    /* tamanho de um elemento */
+    box-sizing: border-box;
+    /* indica que a fonte "Poiret One" deve ser usada */
+    font-family: "Poiret One", serif;
+    /* Remove os marcadores */
+    list-style: none;
+}
+
+body {
+    /* faz com que os itens dentro do container se organizem de forma flexível. */
+    display: flex;
+    /* organiza esses itens de cima para baixo (em uma coluna). */
+    flex-direction: column;
+    /* garante que o container tenha a altura total da tela */
+    min-height: 100vh;
+}
+
+header {
+    /* define a cor do cabeçalho */
+    background: #2131EF;
+    /* cor das letras */
+    color: white;
+    /* espaço entre o conteúdo e a borda */
+    padding: 15px;
+    /* deixa o texto no centro */
+    text-align: center;
+}
+
+h1 {
+    /* indica a fonte usada */
+    font-family: "Dancing Script", serif;
+    /*  */
+    font-size: 2.5rem;
+}
+
+nav {
+    /* imagens */
+    /* faz com que os itens dentro do container se organizem de forma flexível. */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* margem do topo */
+    margin-top: 10px;
+}
+
+nav a {
+    /* cor das letras */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* manu lateral */
+.container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: url(img/london.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* barra lateral */
+.sidebar {
+    flex: 1;
+    min-width: 200px;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* formulario */
+.main-content {
+    flex: 2;
+    min-width: 300px;
+    padding: 15px;
+}
+
+.subtittle {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+
+}
+
+.secondary-content {
+    flex: 1;
+    min-width: 200px;
+    background: #FFFFFF ;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+li {
+    padding: 9px;
+}
+
+footer {
+    background: #2131EF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #4548F3 ;
+    border-radius: 5px;
+}
+
+button {
+    background: #2131EF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #4548F3;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
