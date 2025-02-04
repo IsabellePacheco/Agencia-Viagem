@@ -1,6 +1,7 @@
 # Agencia Viagem
 
 ## Figma
+O Figma é uma ferramenta de design colaborativo baseada na web, usada para criação de interfaces de usuário (UI), protótipos e layouts
 
 #### NOTEBOOK
 <img width="299" alt="image" src="https://github.com/user-attachments/assets/e5429ff7-69d3-40d2-82d6-d9ecd0685f38" />
