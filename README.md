@@ -1,4 +1,5 @@
-# Agencia Viagem
+# Agência de Viagem
+Nessa atividade foi proposto para criarmos um site sobre agência de viagem para relambrar um pouco sobre algumas das tags semântica do HTML e um pouco sobre alguns códigos para estilizar a página utilizando CSS. 
 
 ## Figma
 O Figma é uma ferramenta de design colaborativo baseada na web, usada para criação de interfaces de usuário (UI), protótipos e layouts.
